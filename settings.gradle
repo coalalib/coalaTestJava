@@ -1,0 +1,3 @@
+include ':submodules:coala:app', ':libs:infrastructure'
+project(':libs:infrastructure').projectDir = new File('submodules/coala/libs/infrastructure')
+include ':app'
